@@ -1,0 +1,416 @@
+﻿html {
+  background: #FFF;
+}
+.container {
+  position: relative;
+  margin: 0 auto;
+  width: 94%;
+  max-width: 1000px;
+  font-family: Garamond; font-size:17px;
+}
+
+.container h1{ font-size:21px; font-weight:700; text-align:center; color:grey;}
+
+.container p{ line-height:25px; font-size:18px;}
+
+h2{ color:#f98546; font-size:18px; font-weight:bold;}
+
+.link{ color:#7F4505; font-weight:bold; text-decoration:none;}
+
+.link:hover{ text-decoration:underline;}
+
+.container strong{ font-weight:bold;}
+
+.content {
+  position: relative;
+  padding-top: 5px; 
+}
+.content p {
+  margin-bottom: 10px;
+}
+#header {
+
+  position: relative; display:block; z-index:2;
+  width: 100%;
+  height: 70px;
+  line-height: 70px;
+  background: #FFF;
+  color: white;
+}
+#header h1 {
+  position: absolute; width:217px; text-indent:-9999px; width: 100%; 
+  text-transform: uppercase; background:transparent url(../images/baghvillas_logo.jpg) 0 0 no-repeat;
+}
+#nav {
+  position: absolute;
+  right: 0; top: 20px;
+}
+#nav ul li {
+  float: left;
+}
+#nav ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none; font-family: 'Oswald', sans-serif; font-weight:400; font-size:13px;
+  padding: 0 20px;
+}
+
+#nav ul li a:hover {
+  color: #ff9c01;
+}
+
+#nav ul li a.act{ 
+color:#ff9c01;
+}
+
+
+
+
+.bagh-hd-text{
+font-size:18px;
+color:#463e35;
+margin:0px;
+padding:0px;}
+
+.baghtext2{
+font-size:11px; font-family:Arial, Helvetica, sans-serif;
+color: #333;
+margin:0px;
+text-align: center;
+line-height:15px; letter-spacing:0.03cm;
+text-decoration:none;
+}
+
+
+.baghtext{
+font-size:11px; font-family:Arial, Helvetica, sans-serif;
+color: #333;
+margin:0px;
+padding:8px 0px 8px 0px; text-align: left;
+line-height:15px; letter-spacing:0.03cm;
+text-decoration:none;
+}
+.baghtext a{
+font-size:12px;
+color:#463e35;
+margin:0px;
+padding:5px 0px 0px 0px;
+line-height:18px;
+text-align:justify;
+}
+.query{margin:0px 0px 0px 0px;
+width:250px;
+background-color:#FFFFFF;
+padding:0px; float:left;}
+
+.pathrunner{ text-decoration:none; font-family:Verdana, Geneva, Tahoma, sans-serif; color:#362E3D; font-size:12px; padding:10px 0px 15px 0px;}
+.pathrunner span{margin:0px 0px 0px 5px;}
+.pathrunner a{ text-decoration:none; font-family:Verdana, Geneva, Tahoma, sans-serif; color:#ff9c01; font-size:13px; margin:0px 5px 0px 0px;}
+.pathrunner a:hover{ text-decoration:underline;}
+
+.floatL{float:left}
+.padL5{padding-left:5px;}
+.padT10{padding-top:10px;}
+.padL10{padding-left:10px;}
+.padT25{padding-top:25px;}
+.padall10{padding:10px;}
+.clr{clear:both;}
+.ctr{
+font:Arial, Helvetica, sans-serif; 
+font-size:11px; 
+color:#000000;
+float:left; width:45px; padding-left:5px; padding-top:8px;}
+
+.inputbox{width:100%; height:22px; background-color: #FFF;  border: 1px solid #cccccc; padding:0px 0 0 5px; -webkit-appearance:none; resize:none; -webkit-box-sizing:border-box;   -moz-box-sizing:border-box;   box-sizing:border-box;   -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; -webkit-transition:border-color 200ms linear; -moz-transition:border-color 200ms linear; -o-transition:border-color 200ms linear; -ms-transition:border-color 200ms linear; transition:border-color 200ms linear}
+.inputbox:focus { 
+    outline: none !important;
+    border:1px solid #f26843;
+
+}
+
+.textarea:focus {
+        outline: none !important;
+    border:1px solid #f26843;
+}		
+.calenderimg{float:left; position:absolute; left: 741px; top: 360px; height: 24px;}
+.calenderimg1{float:left; position:absolute; left: 740px; top: 328px; height: 24px;}
+.dropd{width:280px; height:25px; background-color:#FFF;  border: 1px solid #cccccc; padding:3px 0 0 5px;   appearance: button-arrow-down;  -webkit-appearance:none; resize:none; -webkit-box-sizing:border-box;   -moz-box-sizing:border-box;   box-sizing:border-box;   -webkit-border-radius:0px; -moz-border-radius:0px; border-radius:0px; -webkit-transition:border-color 200ms linear; -moz-transition:border-color 200ms linear; -o-transition:border-color 200ms linear; -ms-transition:border-color 200ms linear; transition:border-color 200ms linear}
+.dropd:focus { 
+    outline: none !important;
+    border:1px solid #f26843;
+
+}
+
+@media (max-width: 950px) {
+#header {
+  position: relative; display:block; z-index:2;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  background: #fff;
+  color: white;
+}
+#header h1 {
+  position: absolute; width:217px; text-indent:-9999px;
+  top: 0;
+  left: 0; 
+  text-transform: uppercase; background:transparent url(../images/baghvillas_logo150.png) 0 0 no-repeat;
+}
+#nav {
+  position: absolute;
+  right: 0; top: 10px;
+}
+#nav ul li {
+  float: left;
+}
+#nav ul li a {
+  display: block;
+  color: #000;
+  text-decoration: none; font-family: 'Oswald', sans-serif; font-weight:400; font-size:11px;
+  padding: 0 10px;
+}
+
+#nav ul li a:hover {
+  color: #ff9c01;
+}
+
+
+.bagh-hd-text{
+font-size:18px;
+color:#463e35;
+margin:0px;
+padding:0px;}
+
+#baghtext{
+font-size:11px; font-family:Arial, Helvetica, sans-serif;
+color: #333;
+margin:0px;
+padding:8px 0px 8px 0px; text-align: left;
+line-height:15px; letter-spacing:0.03cm;
+text-decoration:none;
+}
+.baghtext a{
+font-size:12px;
+color:#463e35;
+margin:0px;
+padding:5px 0px 0px 0px;
+line-height:18px;
+text-align:justify;
+}
+.query{margin:0px 0px 0px 0px;
+width:250px;
+background-color:#FFFFFF;
+padding:0px; float:left;}
+
+
+
+.floatL{float:left}
+.padL5{padding-left:5px;}
+.padT10{padding-top:10px;}
+.padL10{padding-left:10px;}
+.padT25{padding-top:25px;}
+.padall10{padding:10px;}
+.clr{clear:both;}
+.ctr{
+font:Arial, Helvetica, sans-serif; 
+font-size:11px; 
+color:#000000;
+float:left; width:45px; padding-left:5px; padding-top:8px;}
+
+#inputbox{width:275px; height:22px; background-color: #FFF;  border: 1px solid #cccccc; padding:0px 0 0 5px;}		
+#calenderimg{float:left; position:absolute; left: 741px; top: 360px; height: 24px;}
+#calenderimg1{float:left; position:absolute; left: 740px; top: 328px; height: 24px;}
+#dropd{width:280px; height:25px; background-color:#FFF;  border: 1px solid #cccccc; padding:3px 0 0 5px;}
+
+
+}
+
+@media (max-width: 675px) {
+	#header {
+
+  position: relative; display:block; z-index:12;
+  width: 100%;
+  height: 43px;
+  line-height: 43px;
+  background: #fff;
+  color: white;
+}	
+	
+  #header .container {
+    width: 100%; height: 43px; font-family: Garamond; font-size:17px;
+  }
+  #header h1 {
+    left: 3%; background:transparent url(../images/baghvillas_logo150.png) 0 0 no-repeat;
+  }
+  
+  #header h2 {
+    right: 3%; background:transparent url(../images/mlink.png) 0 0 no-repeat; top:5px;     display: block; width:32px; height:32px;
+    position: absolute; color: #FFF; font-family:Arial, Helvetica, sans-serif; font-size:1px;
+  }
+  
+  #header h2 a {
+	color: #F00; text-decoration:none;
+  }
+
+  #nav {
+    width: 100%;
+    top: 43px;
+  }
+  #nav:before {
+    content: ' '; z-index:-1;
+    display: block; 
+    position: absolute;
+    right: 3%;
+    top: -43px;
+    line-height: 43px;
+    cursor: pointer; color:#000;
+  }
+  #nav ul {
+    background: #929292;
+    width: 100%;
+  }
+  #nav ul li {
+    float: none;
+  }
+  #nav ul li a {
+    padding: 7px 3%; 
+    line-height: 25px;
+    border-bottom: 1px solid #fff; color:#fff; font-family: 'Oswald', sans-serif; font-weight:400; font-size:14px; text-align:left;
+  }
+
+#nav ul li a:hover {
+  color: #000;
+}
+
+
+#nav ul li a.act{ 
+color: #000;
+}
+
+  #nav ul {
+    transition: 350ms;
+    -moz-transition: 350ms;
+    -webkit-transition: 350ms;
+    transform: perspective(600) rotate3d(0, 0, 0, 0);
+    -moz-transform: perspective(600) rotate3d(0, 0, 0, 0);
+    -webkit-transform: perspective(600) rotate3d(1, 0, 0, -90deg);
+    transform-origin: 50% 0;
+    -moz-transform-origin: 50% 0;
+    -webkit-transform-origin: 50% 0;
+  }
+  #nav.open ul {
+    transform: translateY(0px);
+    -moz-transform: translateY(0px);
+    -webkit-transform: perspective(600) rotate3d(0, 0, 0, 0);
+  }
+
+
+
+
+.bagh-hd-text{
+font-size:18px;
+color:#463e35;
+margin:0px;
+padding:0px;}
+
+.baghtext{
+font-size:11px; font-family:Arial, Helvetica, sans-serif;
+color: #333;
+margin:0px;
+padding:8px 0px 8px 0px; text-align: left;
+line-height:15px; letter-spacing:0.03cm;
+text-decoration:none;
+}
+.baghtext a{
+font-size:12px;
+color:#463e35;
+margin:0px;
+padding:5px 0px 0px 0px;
+line-height:18px;
+text-align:justify;
+}
+.query{margin:0px 0px 0px 0px;
+width:250px;
+background-color:#FFFFFF;
+padding:0px; float:left;}
+
+
+
+.floatL{float:left}
+.padL5{padding-left:5px;}
+.padT10{padding-top:10px;}
+.padL10{padding-left:10px;}
+.padT25{padding-top:25px;}
+.padall10{padding:10px;}
+.clr{clear:both;}
+.ctr{
+font:Arial, Helvetica, sans-serif; 
+font-size:11px; 
+color:#000000;
+float:left; width:45px; padding-left:5px; padding-top:8px;}
+
+.inputbox{width:100%; height:22px; background-color: #FFF;  border: 1px solid #cccccc; padding:0px 0 0 5px;}		
+.calenderimg{float:left; position:absolute; left: 741px; top: 360px; height: 24px;}
+.calenderimg1{float:left; position:absolute; left: 740px; top: 328px; height: 24px;}
+.dropd{width:280px; height:25px; background-color:#FFF;  border: 1px solid #cccccc; padding:3px 0 0 5px;}
+
+}
+
+
+
+.bottomtext {
+	font-family: Arial, Helvetica, sans-serif; font-style:italic;
+	font-size:11px; font-weight:normal; color: #a3a1a1; line-height:20px; padding-bottom:30px;
+}
+
+.captionOrange
+        {
+            text-align: center; 
+        }
+		
+.contactaddress {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #000000; line-height:20px; text-align:center;
+}
+
+.contactemail {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #000000; line-height:20px; text-align:center;
+}
+.contactemail a{
+	color: #000000; text-decoration:none;
+}
+
+.contactemail a:hover{
+	color: #f98546;
+}
+	
+
+.prices {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #f98546; line-height:20px; text-align:center;
+}
+
+.pricesdetails {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #000000; line-height:20px; text-align:center;
+}
+
+.splpackage {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #f98546; line-height:20px; text-align:center;
+}
+
+.splpackagedetails {
+	font-family: Garamond; 
+	font-size:17px; font-weight:normal; color: #000000; line-height:20px; text-align:center;
+}
+.ratessupport {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:13px; font-weight:normal; color: #858282; line-height:20px; text-align:center;
+}
+
+.ratesconfirmation {
+	font-family: Arial, Helvetica, sans-serif; 
+	font-size:12.5px; font-weight:normal; color: #a2a0a0; line-height:20px; text-align:center;
+}
